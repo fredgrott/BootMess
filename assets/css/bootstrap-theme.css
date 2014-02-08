@@ -612,3 +612,105 @@
     opacity: 0.8;
     vertical-align: bottom;
 }
+
+/*
+ *  Roboto fonts and font stacks
+ */
+
+
+
+ @font-face {
+    font-family: 'Roboto Black';
+    src: local('Roboto Black'),
+         url('../font/roboto_black.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: local('Roboto Bold'),
+         url('../font/roboto_bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: local('Roboto Light'),
+         url('../font/roboto_light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: local('Roboto Medium'),
+         url('../font/roboto_medium.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: local('Roboto Regular'),
+         url('../font/roboto_regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Thin';
+    src: local('Roboto Thin'),
+         url('../font/roboto_thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed Bold';
+    src: local('RobotoCondensed Bold'),
+         url('../font/robotocondensed_bold.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'RobotoCondensed Light';
+    src: local('RobotoCondensed Light'),
+         url('../font/robotocondensed_light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'RobotoCondensed Regular';
+    src: local('RobotoCondensed Regular'),
+         url('../font/robotocondensed_regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab Bold';
+    src: local('RobotoSlab Bold'),
+         url('../font/robotoslab_bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab Light';
+    src: local('RobotoSlab Light'),
+         url('./font/robotoslab_light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab Regular';
+    src: local('RobotoSlab Regular'),
+         url('../font/robotoslab_regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab Thin';
+    src: local('RobotoSlab Thin'),
+         url('../font/robotoslab_thin.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Roboto Regular, RobotoSLab Regular, RobotoCondensed Regular;
+  font-size: 13px;
+  line-height: 20px;
+  color: #444444;
+  background-color: #f7f7f7;
+}
+
