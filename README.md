@@ -8,6 +8,14 @@ I did not have time to fully edit and fork bootplus to update it to
 BootStrap 3.x so I did this messy hack instead.  Please dontouse it over the long-term as its
 somewhat messy.
 
+# Usage
+
+Obviously, I did not use less editing tomake changes so this is a bit of hackish in that you have to
+override stuff to change it. See bootplus for directions or read the source :
+
+[bootplus](http://aozora.github.io/bootplus/)
+
+
 # Screenshot
 
 ![screenshot](https://github.com/shareme/BootMess/raw/master/readme_images/bootmess_example.png)
@@ -31,6 +39,9 @@ limitations under the License.
 
 # Development Resources
 
+Bootsnipp has a full list at:
+
+[bootsnipp](http://bootsnipp.com/resources)
 
 
 # About The Author
